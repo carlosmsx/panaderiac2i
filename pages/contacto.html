@@ -50,7 +50,24 @@
         </div>
       </nav>
     </header>
-    <main class="container">
+    <main class="container my-5">
+      <h1 class="display-1">Contactenos</h1>
+      <hr>
+      <form>
+        <div class="mb-3">
+          <label for="nombreApellido" class="form-label">Email</label>
+          <input type="test" class="form-control" id="nombreApellido" placeholder="nombre y apellido" required maxlength="50" minlength="3">
+        </div>
+        <div class="mb-3">
+          <label for="nombreA" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required maxlength="100" minlength="5">
+        </div>
+        <div class="mb-3">
+          <label for="consulta" class="form-label">Consulta</label>
+          <textarea class="form-control" id="consulta" rows="3" placeholder="ingrese hasta 200 caracteres" required maxlength="200" minlength="5"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
     </main>
     <footer class="container-fluid bg-dark text-secondary py-4">
       <section class="row justift-content-center">
